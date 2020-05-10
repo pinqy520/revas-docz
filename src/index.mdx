@@ -1,0 +1,32 @@
+---
+name: Introduction
+menu: Getting Started
+route: /
+---
+
+# Introduction
+
+> In the future, Revas would be **a high-performance cross-platform UI framework based on WebAssembly.**
+> 
+> Now, you can use React and CSS to efficiently write interactive UIs on Canvas.
+
+
+## Motivation
+
+**Cross Platform** Similar to Flutter, Revas build its own UI system on a cross-platform drawing interface. Flutter uses Skia as the common drawing interface, and Revas uses canvas-like API as its drawing interface. Any host that provides the canvas-like API can run Revas Apps, so in theory Revas can work well on any operating system.
+
+![test](https://user-images.githubusercontent.com/5719833/81006150-9b8f3300-8e81-11ea-8cb1-08de6550ea03.png)
+
+**High Performance** Flutter's high interactive performance benefits from Dart and Skia; and currently, Revas has a fairly smooth interactive experience even through it is still running in a pure JS environment and using Canvas2D for drawing. In my plan , the rendering layer of Revas can be rewritten to WebAssembly, and after using WebGL, rendering will be smoother with GPU acceleration.
+
+**Use anywhere** First of all, the interactive UI built with Revas can be embedded as a widget in a page (Web or client, etc., any container that provides the canvas interface). Second, you can also use Revas to build a complete App.
+
+So in the future Revas could be **a high-performance cross-platform UI framework based on WebAssembly.**
+
+> If Flutter is Dart + Skia, Revas will be Webassembly + WebGL.
+
+
+
+
+
+
